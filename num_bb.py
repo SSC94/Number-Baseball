@@ -29,8 +29,7 @@ def startB(a,b,c,lis):
 answer = create_answer()
 count = 0
 print("시작합니다.")
-while True:
-    print("정답 : {}".format(answer)) 
+while True: 
     a, b, c = input_num() 
     strike, ball, flag = startB(a,b,c,answer)
     count += 1 
